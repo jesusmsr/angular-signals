@@ -1,0 +1,13 @@
+<div class="border border-gray-200 p-4 rounded w-full">
+  <span class="text-lg font-semibold">Writable Signal</span>
+  <hr class="mt-2 w-full border-gray-400" />
+  <div class="mt-4">
+    <button
+      class="btn btn-secondary bg-gray-200 px-5 py-2 rounded hover:bg-gray-300 hover:cursor-pointer"
+      (click)="increment()"
+    >
+      Increment
+    </button>
+  </div>
+  <span>{{ count() }}</span>
+</div>
