@@ -1,0 +1,15 @@
+<div class="border border-gray-200 p-4 rounded w-full">
+  <span class="text-lg font-semibold">Computed Signal</span>
+  <hr class="mt-2 w-full border-gray-400" />
+  <div class="mt-4 flex">
+    <button
+      class="btn btn-secondary bg-gray-200 px-5 py-2 rounded hover:bg-gray-300 hover:cursor-pointer"
+      (click)="changeLength()"
+    >
+      Change length
+    </button>
+  </div>
+  <p>Length: {{ length() }}</p>
+  <p>Width: {{ width() }}</p>
+  <p>Area: {{ area() }}</p>
+</div>
